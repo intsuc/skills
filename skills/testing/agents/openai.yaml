@@ -1,0 +1,4 @@
+interface:
+  display_name: "Testing"
+  short_description: "Guide test writing and review decisions"
+  default_prompt: "Use $testing to decide whether these tests should exist and review them."
