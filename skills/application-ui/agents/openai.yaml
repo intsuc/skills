@@ -1,0 +1,4 @@
+interface:
+  display_name: "Application UI"
+  short_description: "Apply foundational application UI constraints"
+  default_prompt: "Use $application-ui to design an application interface."
