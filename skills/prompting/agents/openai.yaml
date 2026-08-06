@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompting"
+  short_description: "Guide runtime prompts for model calls"
+  default_prompt: "Use $prompting to write or review an application's runtime model call."
