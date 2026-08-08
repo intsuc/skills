@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentation"
+  short_description: "Guide concise, code-grounded explanations"
+  default_prompt: "Use $documentation to decide whether and how to write or revise this explanation."
