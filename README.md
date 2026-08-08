@@ -4,3 +4,17 @@
 - [Documentation](skills/documentation/SKILL.md) — Guides decisions about natural-language explanations.
 - [Prompting](skills/prompting/SKILL.md) — Guides prompts and parsed outputs for language-model calls in applications.
 - [Testing](skills/testing/SKILL.md) — Guides writing and reviewing tests.
+
+## Installation
+
+### Vite+
+
+```
+vpx skills@latest add intsuc/skills
+```
+
+### npm
+
+```
+npx skills@latest add intsuc/skills
+```
