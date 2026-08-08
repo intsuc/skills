@@ -15,7 +15,12 @@ Before writing an explanation, apply these gates in order:
 
 1. **Code gate:** Can ordinary code reading reveal the information without a large investigation? If yes, do not write it. Continue only when the information cannot be learned from the code or rediscovering it would require a large investigation every time.
 2. **Future-value gate:** Will recording the information materially improve your execution of future tasks? If no, do not write it. Continue only when the information will save useful future work.
-3. **Minimum-current-information gate:** Write only the smallest explanation that captures the useful current information. Do not preserve history merely because it once mattered; past information often has no future value. When changing `A` to `B`, write `B`, not `A used to be true, but now B`, unless knowing `A` will help perform a future task.
+3. **Clause-value gate:** State the useful current information directly. Then test every additional clause independently:
+   - Remove the clause.
+   - Would its absence permit a concrete, plausible wrong action or decision, or require material rediscovery in a future task?
+   - If no, delete it. If yes, keep only the minimum wording that prevents that cost.
+
+   Apply this test to prior states and rejected alternatives alike. Prefer `B` to both `A used to be true, but now B` and `not A, but B`. Keep the `A` clause only when it passes the test independently. Every retained clause is another claim to verify and keep synchronized with the code.
 
 ## Rewriting Existing Explanations
 
