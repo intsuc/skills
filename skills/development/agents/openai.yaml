@@ -1,0 +1,4 @@
+interface:
+  display_name: "Development"
+  short_description: "Develop usable software one turn at a time"
+  default_prompt: "Use $development to make this software change while leaving the software usable at the end of the turn."
