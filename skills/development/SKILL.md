@@ -7,7 +7,7 @@ description: "Guides agent-led software development organized by session turns. 
 
 Discard conventional human software-development thinking. Treat development as a continuous sequence of turns within the current session.
 
-Never divide development into `v0`, `v1`, `1.0`, `MVP`, or any other version boundary. Use the turn, not the version, as the unit of development.
+Never divide development into `v0`, `0.1`, `1.0`, `MVP`, or any other version boundary. Use the turn, not the version, as the unit of development.
 
 ## Multi-Turn Changes
 
